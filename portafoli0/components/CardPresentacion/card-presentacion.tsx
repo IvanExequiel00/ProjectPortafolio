@@ -1,3 +1,6 @@
+import Image from "next/image"
+import ImgContent from "./content-Img"
+
 const CardPresentacion  =() =>{
 return(
     <div className="flex absolute items-center justify-center h-screen z-10 w-4/6 gap-x-40">
@@ -12,17 +15,29 @@ return(
             1
           </span>
           <div className="flex flex-row justify-evenly gap-4">
-          <button type="button" className="h-12  px-8 rounded-lg bg-sky-400 text-primary-foreground hover:bg-sky-400/90 border-sky-500 border-b-4 active:border-b-0">
-             Linkedin
+          <button type="button" className="h-12  px-8 rounded-lg bg-sky-400 text-primary-foreground hover:bg-sky-400/90 border-sky-500 border-b-4 active:border-b-0 text-white flex  justify-center items-center gap-3">
+          <Image
+          className="pr-0"
+          height={20}
+          width={20}
+          alt="Linkedin"
+          src="linkedin-color-svgrepo-com.svg"
+          />
+            Linkedin
             </button>
-            <button type="button" className="h-12  px-8 rounded-lg bg-sky-400 text-primary-foreground hover:bg-sky-400/90 border-sky-500 border-b-4 active:border-b-0">
+            <button type="button" className="h-12  px-8 rounded-lg bg-sky-400 text-primary-foreground hover:bg-sky-400/90 border-sky-500 border-b-4 active:border-b-0 text-white flex  justify-center items-center gap-3">
+            <Image
+          className="pr-0"
+          height={20}
+          width={20}
+          alt="Linkedin"
+          src="linkedin-color-svgrepo-com.svg"
+          />
               GitHub
             </button>
           </div>
         </div>
-        <div className="bg-gray-200 w-full h-40 mr-2 drop-shadow-2xl border-8 border-gray-600 backdrop-blur">
-         TITULO222
-        </div>
+        <ImgContent />
       
       </div>
 )
