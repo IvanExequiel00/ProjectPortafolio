@@ -13,7 +13,7 @@ export default function Home() {
       </div>
       <ParticlesComponent />
 
-      <div className="bg-red-600 w-full h-[400px]" >
+      <div className="bg-black w-full h-[400px]" >
         a
       </div>
 
