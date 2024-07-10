@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const ImgContent = () =>{
     return(
-        <div className="bg-black w-full h-28 mr-2 drop-shadow-2xl border-8 border-gray-600 backdrop-blur flex flex-row gap-3 pl-3">
+        <div className="bg-black w-full h-28 mr-2 drop-shadow-2xl border-8 border-gray-800 backdrop-blur blurry-border shadow-lg flex flex-row gap-3 pl-3 overflow-auto">
         <Image
         className="bg-white h-10 mt-3 rounded-full"
         src="next-js-svgrepo-com.svg"
