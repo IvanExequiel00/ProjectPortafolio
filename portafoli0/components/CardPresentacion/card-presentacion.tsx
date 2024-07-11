@@ -3,7 +3,7 @@ import ImgContent from "./content-Img"
 
 const CardPresentacion  =() =>{
 return(
-    <div className="flex absolute items-center justify-center h-screen z-10 w-4/6 gap-x-40">
+    <div className="grid grid-cols-1 md:grid-cols-2 absolute items-center justify-center h-screen z-10 w-4/6 gap-x-40">
         <div className=" flex flex-col mr- w-40 h-40 text-center  gap-4">
          <h1 className="text-white text-3xl ">
           Ivan Rojas Exequiel
