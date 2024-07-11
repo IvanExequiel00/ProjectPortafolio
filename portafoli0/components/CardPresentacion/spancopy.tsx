@@ -26,11 +26,11 @@ const CopyableSpan = ({ textToCopy}:Props) => {
     <div>
       <span 
         onClick={() => copyToClipboard(textToCopy)} 
-        className="cursor-pointer text-white underline"
+        className="cursor-pointer text-white  font-sans text-xl"
       >
         {textToCopy}
       </span>
-      {copySuccess && <span className="ml-2 p-1 bg-white rounded-lg text-black">{copySuccess}</span>}
+      {copySuccess && <span className="ml-2 p-1 bg-white rounded-lg text-black font-sans ">{copySuccess}</span>}
     </div>
   );
 };
