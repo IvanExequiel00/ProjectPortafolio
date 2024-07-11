@@ -5,8 +5,8 @@ import CopyableSpan from "./spancopy";
 
 const CardPresentacion = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-1 absolute items-center justify-center h-screen z-10 w-4/6 gap-x-40  gap-10 mt-10">
-      <div className=" flex flex-col justify-center items-center  h-40 text-center  gap-4   my-20 w-full ">
+    <div className="grid grid-cols-1 lg:grid-cols-1 absolute items-center justify-center h-screen z-10 w-4/6 gap-x-40  gap-10 mt-10 md:mt-0">
+      <div className=" flex flex-col justify-center items-center  h-40 text-center  gap-4   my-20 md:my-0 w-full ">
         <h1 className="text-white text-3xl font-sans font-semibold">
           Ivan Exequiel Rojas
         </h1>
