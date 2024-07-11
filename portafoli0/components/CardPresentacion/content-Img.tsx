@@ -6,53 +6,53 @@ const ImgContent = () => {
      border-gray-800 backdrop-blur blurry-border shadow-lg px-5 overflow-auto 
      grid grid-cols-4 gap-0">
       <Image
-        className="bg-white h-10 mt-3 rounded-full"
+        className="bg-white h-14 w-14 mt-3 rounded-full"
         src="next-js-svgrepo-com.svg"
         height={40}
         width={40}
         alt="Nextjs"
       />
       <Image
-        className="  h-10 mt-3"
+        className="   h-14 w-14 mt-3 rounded-lg"
         src="typescript-official-svgrepo-com.svg"
         height={40}
         width={40}
-        alt="Nextjs"
+        alt="typescript"
       />
       <Image
-        className=" h-10 mt-3 rounded-full"
+        className="  h-14 w-14 mt-3 rounded-full"
         src="javascript-svgrepo-com.svg"
         height={40}
         width={40}
-        alt="Nextjs"
+        alt="javascript"
       />
       <Image
-        className="  h-10 mt-3 rounded-full"
+        className="  bg-slate-300 h-14 w-14 mt-3 rounded-full"
         src="tailwind-svgrepo-com.svg"
         height={40}
         width={40}
-        alt="Nextjs"
+        alt="tailwind css"
       />
       <Image
-        className="  h-10 mt-3 rounded-full"
+        className="  h-14 w-14 mt-3 rounded-lg"
         src="css-3-svgrepo-com.svg"
         height={40}
         width={40}
-        alt="Nextjs"
+        alt="css"
       />
       <Image
-        className="  h-10 mt-3 rounded-full"
+        className="  h-14 w-14 mt-3 rounded-lg"
         src="html-5-svgrepo-com.svg"
         height={40}
         width={40}
-        alt="Nextjs"
+        alt="html"
       />
       <Image
-        className=" h-10 mt-3 rounded-full"
+        className=" bg-slate-300 h-14 w-14 mt-3 rounded-full"
         src="react.svg"
         height={40}
         width={40}
-        alt="Nextjs"
+        alt="react"
       />
       
     </div>
