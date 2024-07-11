@@ -25,7 +25,7 @@ const CardPresentacion = () => {
           <Link href={"https://www.linkedin.com/in/ivan-rojas-6b8b16216/"}>
             <button
               type="button"
-              className="font-sans w-full md:w-40 h-12  px-8 rounded-lg bg-sky-400 text-primary-foreground hover:bg-sky-400/90 border-sky-500 border-b-4 active:border-b-0 text-white flex  justify-center items-center gap-3"
+              className="font-semibold font-sans w-full md:w-40 h-12  px-8 rounded-lg bg-sky-400 text-primary-foreground hover:bg-sky-400/90 border-sky-500 border-b-4 active:border-b-0 text-white flex  justify-center items-center gap-3"
             >
               <Image
                 className="pr-0"
@@ -41,7 +41,7 @@ const CardPresentacion = () => {
          
               <button
                 type="button"
-                className="font-sans w-full md:w-40 h-12 px-8 rounded-lg bg-slate-600 text-primary-foreground hover:bg-slate-400/90 border-slate-500 border-b-4 active:border-b-0 text-white flex justify-center items-center gap-3"
+                className="font-semibold font-sans w-full md:w-40 h-12 px-8 rounded-lg bg-slate-600 text-primary-foreground hover:bg-slate-400/90 border-slate-500 border-b-4 active:border-b-0 text-white flex justify-center items-center gap-3"
               >
                 <Image
                   className="pr-0 "
@@ -57,7 +57,7 @@ const CardPresentacion = () => {
         </div>
       </div>
       <div className="flex flex-col ">
-        <h3 className="text-3xl text-white font-sans ">
+        <h3 className="font-semibold text-3xl text-white font-sans ">
           Front-end
         </h3>
         <ImgContent />
