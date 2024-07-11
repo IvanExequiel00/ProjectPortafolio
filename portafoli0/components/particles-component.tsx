@@ -550,7 +550,7 @@ const ParticlesComponent = () => {
    if (init) {
     return (
       <Particles
-      className="  h-[900px] md:h-[800px] z-0 "
+      className="  h-[900px] md:h-[800px] xl:h-[600px] z-0 "
         id="tsparticles"
         particlesLoaded={particlesLoaded}
         options={options}

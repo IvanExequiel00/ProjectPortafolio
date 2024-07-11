@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="">
       <Header />
-      <div className="flex justify-center z-10 w-full">
+      <div className="flex justify-center  z-10 w-full ">
         <CardPresentacion />
       </div>
       <ParticlesComponent />
