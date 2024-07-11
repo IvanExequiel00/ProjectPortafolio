@@ -8,17 +8,17 @@ const Header = () => {
       <div className="">
         <ul className="flex flex-row justify-center gap-10 py-2">
           <li>
-            <a href="#" className="text-white font-sans text-2xl font-semibold" aria-current="page">
+            <a href="#" className="text-white font-sans text-lg lg:text-2xl font-semibold" aria-current="page">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="text-white font-sans  text-2xl font-semibold">
+            <a href="#" className="text-white font-sans text-lg lg:text-2xl font-semibold">
               about me
             </a>
           </li>
           <li>
-            <a href="#" className="text-white font-sans text-2xl font-semibold">
+            <a href="#" className="text-white font-sans text-lg lg:text-2xl font-semibold">
               project
             </a>
           </li>
