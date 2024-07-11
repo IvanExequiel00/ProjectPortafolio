@@ -14,7 +14,7 @@ const CardPresentacion = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 absolute items-center justify-center h-screen z-10 w-4/6 gap-x-40 mt-6">
       <div className=" flex flex-col justify-center items-center md: h-40 text-center  gap-4   my-20 w-full ">
-        <h1 className="text-white text-3xl ">Ivan Rojas Exequiel</h1>
+        <h1 className="text-white text-3xl ">Ivan Exequiel Rojas</h1>
         <CopyableSpan textToCopy="Exequieliv@outlook.es"/>
         <span className="text-white flex gap-2">
         <Image
