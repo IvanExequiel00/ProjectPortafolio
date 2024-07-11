@@ -54,13 +54,7 @@ const ImgContent = () => {
         width={40}
         alt="Nextjs"
       />
-      <Image
-        className=" bg-white h-10 mt-3 rounded-full"
-        src="next-js-svgrepo-com.svg"
-        height={40}
-        width={40}
-        alt="Nextjs"
-      />
+      
     </div>
   );
 };
