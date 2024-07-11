@@ -1,13 +1,21 @@
 import Image from "next/image";
 import ImgContent from "./content-Img";
 import Link from "next/link";
+import CopyableSpan from "./spancopy";
+
 
 const CardPresentacion = () => {
+
+  
+
+
+
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 absolute items-center justify-center h-screen z-10 w-4/6 gap-x-40 mt-6">
       <div className=" flex flex-col justify-center items-center md: h-40 text-center  gap-4   my-20 w-full ">
         <h1 className="text-white text-3xl ">Ivan Rojas Exequiel</h1>
-        <span className="text-white">Exequieliv@outlook.es</span>
+        <CopyableSpan textToCopy="Exequieliv@outlook.es"/>
         <span className="text-white flex gap-2">
         <Image
         className="pr-0"
@@ -16,7 +24,7 @@ const CardPresentacion = () => {
         alt="Argentina"
         src="arg.svg"
         />
-          +54 351 5207699
+          <CopyableSpan textToCopy="+54 351 5207699"/>
           </span>
         <div className="md:flex md:flex-row md:justify-between md:gap-4 flex flex-col  w-full gap-2">
           <Link href={"https://www.linkedin.com/in/ivan-rojas-6b8b16216/"}>
