@@ -2,7 +2,6 @@ import CardPresentacion from "@/components/CardPresentacion/card-presentacion";
 import Header from "@/components/navbar";
 import ParticlesComponent from "@/components/particles-component";
 
-import Image from "next/image";
 
 export default function Home() {
   return (
