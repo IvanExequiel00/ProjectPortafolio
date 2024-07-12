@@ -14,12 +14,12 @@ const Header = () => {
           </li>
           <li>
             <a href="#" className="text-white font-sans text-lg lg:text-2xl font-semibold">
-              about me
+              About me
             </a>
           </li>
           <li>
             <a href="#" className="text-white font-sans text-lg lg:text-2xl font-semibold">
-              project
+            Projects
             </a>
           </li>
         </ul>
