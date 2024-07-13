@@ -21,7 +21,7 @@ const projects = [
       "Implementé funcionalidades para que los usuarios pudieran registrarse, iniciar sesión y agendar turnos para fechas futuras.",
       "Apliqué restricciones para evitar la selección de fechas pasadas y horarios específicos."
     ],
-    "technologies": ["TypeScript", "React", "Express", "TypeORM", "PostgreSQL"]
+    "technologies": ["TypeScript", "React", "Express", "TypeORM", "PostgreSQL","react-hook-form"]
   },
   {
     "id": 3,
@@ -31,7 +31,7 @@ const projects = [
       "Los usuarios podían agregar una película, que se almacenaba en la base de datos y se mostraba junto con las otras películas en la vista.",
       "Implementé la funcionalidad de agregar, visualizar y gestionar películas en la base de datos."
     ],
-    "technologies": ["JavaScript", "CSS Modules", "Express", "MongoDB", "Mongoose"]
+    "technologies": ["JavaScript","React","CSS Modules", "Express", "MongoDB", "Mongoose"]
   },
   {
     "id": 4,
@@ -43,7 +43,7 @@ const projects = [
       "Desarrollé un front-end interactivo y responsive utilizando React y TypeScript, garantizando una experiencia de usuario fluida y eficiente.",
       "Utilicé la librería shadcn para mejorar la UI/UX, asegurando componentes estilizados y coherentes en toda la aplicación."
     ],
-    "technologies": ["Next.js", "TypeScript", "React", "Drizzle", "PostgreSQL", "shadcn"]
+    "technologies": ["Next.js", "TypeScript", "React", "Drizzle", "PostgreSQL", "shadcn","Clerk"]
   }
 ];
 
