@@ -7,6 +7,14 @@ import ParticlesComponent from "@/components/particles-component";
 import projects from "@/public/projects";
 import { useState } from "react";
 
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
@@ -25,30 +33,30 @@ console.log()
       <div className="pt-20 flex flex-col justify-center bg-gray-900  pb-40">
         <h3 className=" text-white  text-center text-3xl mb-6 font-sans">Projects</h3>
         <div className="mt-10 h-full w-full m-10 grid grid-cols-1 md:grid-cols-2 gap-4 transition-all duration-300">
-          {/* {projects.projects.map((project, index) => (
-        <SquareDiv 
-        key={project.id} 
-        isActive={activeIndex === index} 
-        onClick={() => setActiveIndex(activeIndex === index ? null : index)} 
-        project={project} 
-      />
-      ))} */}
+          
         </div>
-<div className="flex justify-center gap-3 flex-wrap">
-  {
+
+        <div className="flex items-center justify-center">
+<Carousel className="w-full max-w-screen-sm flex justify-center">
+      <CarouselContent className="w-full">
+      {
     projects.map((pro, index) =>(
+      <CarouselItem key={pro.id}>
+        <ModalA  project={pro} key={index}/>
+      </CarouselItem>
       
-      <ModalA  project={pro} key={index}/>
       
     ))
   }
-
-
-</div>
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
+      </div>
       
       </div>
 
-      {/* <CardPresentacion /> */}
+   
     </div>
   );
 }
