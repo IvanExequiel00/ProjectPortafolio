@@ -21,7 +21,7 @@ type Project = {
               <p className="text-center text-xl text-white font-sans">Tecnologías</p>
               <ul className="flex flex-wrap gap-3 text-xs p-2 text-white font-sans mt-4 cursor-pointer">
                 {project.technologies.map((tech:any, index:any) => (
-                  <li key={index} className="border-2 rounded-xl p-1 border-gray-500 hover:border-gray-300 ">
+                  <li key={index} className="border-2 rounded-xl p-1 border-gray-500 hover:border-gray-300 cursor-pointer">
                     {tech}
                   </li>
                 ))}
