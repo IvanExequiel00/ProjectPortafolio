@@ -10,6 +10,10 @@ import { useState } from "react";
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
+projects.map((pro, index) => {
+  console.log(pro.imagenSrc)
+})
+console.log()
   return (
     <div className="">
       <Header />
@@ -33,7 +37,9 @@ export default function Home() {
 <div className="flex justify-center gap-3 flex-wrap">
   {
     projects.map((pro, index) =>(
+      
       <ModalA  project={pro} key={index}/>
+      
     ))
   }
 

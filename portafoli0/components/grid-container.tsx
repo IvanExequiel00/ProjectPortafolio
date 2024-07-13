@@ -6,6 +6,7 @@ type Project = {
 };
 
  const ModalA = ({project}:Project) => {
+  console.log(project.imageSrc)
   return (
     <div className="min-h-screen flex items-center bg-gray-950 rounded-xl">
       <div className="flex-1 max-w-screen-sm mx-auto p-10">
@@ -18,9 +19,9 @@ type Project = {
           <li className="col-start-1 col-span-1 row-start-1 row-span-11 border-2 border-gray-600 bg-gray-800 rounded-lg shadow-xl">
             <div>
               <p className="text-center text-xl text-white font-sans">Tecnologías</p>
-              <ul className="flex flex-wrap gap-3 text-xs p-2 text-white font-sans mt-4">
+              <ul className="flex flex-wrap gap-3 text-xs p-2 text-white font-sans mt-4 cursor-pointer">
                 {project.technologies.map((tech:any, index:any) => (
-                  <li key={index} className="border-2 rounded-xl p-1 border-gray-500 hover:border-gray-300">
+                  <li key={index} className="border-2 rounded-xl p-1 border-gray-500 hover:border-gray-300 ">
                     {tech}
                   </li>
                 ))}
@@ -28,13 +29,14 @@ type Project = {
             </div>
           </li>
           <li className="col-span-2 row-span-10 bg-gray-800 rounded-lg shadow-xl border-gray-600 border-2">
-            <div className="flex justify-center">
+            <div className="flex justify-center ">
               <Image
                 className="flex"
                 alt="project-image"
-                src="/path/to/image.png" // Actualiza la ruta de la imagen según corresponda
-                width={300}
-                height={50}
+                src={project.imagenSrc}
+                
+                width={450}
+                height={150}
               />
             </div>
           </li>
