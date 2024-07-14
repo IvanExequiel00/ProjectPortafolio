@@ -39,7 +39,7 @@ const projects = [
   {
     "id": 4,
     "name": "Clon de Duolingo",
-    "description": "También realicé un clon de Duolingo utilizando Next.js, TypeScript, React, Drizzle y PostgreSQL.",
+    "description": "Desarrollé un proyecto inspirado en Duolingo utilizando tecnologías modernas como Next.js, TypeScript y React para el frontend. Implementé Shadcn para mejorar la interfaz de usuario con efectos visuales dinámicos y atractivos. Utilicé Drizzle para gestionar las interacciones con una base de datos PostgreSQL.",
     "imagenSrc": "/Singo.png",
     "details": [
       "Implementé la estructura y funcionalidades principales de Duolingo.",
