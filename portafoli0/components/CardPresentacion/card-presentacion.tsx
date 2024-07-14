@@ -3,6 +3,7 @@ import ImgContent from "./content-Img";
 import Link from "next/link";
 import CopyableSpan from "./spancopy";
 import ButtonsS from "../buttons-serie";
+import BackImg from "./back-img";
 
 const CardPresentacion = () => {
   return (
@@ -44,7 +45,7 @@ const CardPresentacion = () => {
         <h3 className="font-semibold text-3xl text-white font-sans ">
           Back-end
         </h3>
-        <ImgContent />
+        <BackImg />
       </div>
     </div>
   );
