@@ -48,6 +48,14 @@ const projects = [
       "Utilicé la librería shadcn para mejorar la UI/UX, asegurando componentes estilizados y coherentes en toda la aplicación."
     ],
     "technologies": ["Next.js", "TypeScript", "React", "Drizzle", "PostgreSQL", "shadcn","Clerk"]
+  },
+  {
+    "id": 5,
+    "name": "Cubix & bets",
+    "description": "Trabajé como desarrollador front-end, donde tuve que crear la interfaz a partir del diseño en Figma que me presentaron, además de implementar las funcionalidades del back-end y la integración de los juegos.",
+    "imagenSrc": "/Captura-cubix.PNG",
+    "details": [],
+    "technologies": ["Vite","React", "Javascript", "Ant Design", "Figma", "React-Redux"]
   }
 ];
 
