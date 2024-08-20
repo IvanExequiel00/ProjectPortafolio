@@ -59,7 +59,7 @@ const projects = [
   },
   {
     "id": 6,
-    "name": "Tinder Switch",
+    "name": "Tinder Swipe",
     "description": "Un pequeño proyecto que simula la interacción de deslizar en Tinder utilizando animaciones con gestos, eventos de mouse y touch. Se centra en la manipulación del DOM y la aplicación de transiciones CSS para crear una experiencia de usuario fluida y atractiva.",
     "imagenSrc": "/Tinder-switch.png",
     "details": [],
