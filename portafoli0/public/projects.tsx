@@ -56,8 +56,25 @@ const projects = [
     "imagenSrc": "/Captura-cubix.PNG",
     "details": [],
     "technologies": ["Vite","React", "Javascript", "Ant Design", "Figma", "React-Redux"]
-  }
+  },
+  {
+    "id": 6,
+    "name": "Tinder Switch",
+    "description": "Un pequeño proyecto que simula la interacción de deslizar en Tinder utilizando animaciones con gestos, eventos de mouse y touch. Se centra en la manipulación del DOM y la aplicación de transiciones CSS para crear una experiencia de usuario fluida y atractiva.",
+    "imagenSrc": "/Tinder-switch.png",
+    "details": [],
+    "technologies": ["Animación con gestos", "Eventos de mouse y touch", "DOM", "Transición CSS"]
+},
+
 ];
 
+// {
+//   "id": 6,
+//   "name": "",
+//   "desciption": "",
+//   "imageSrc": "/tinder switch.png",
+//   "details": [],
+//   "technologies": ["",""]
+// },
 
   export default projects;
