@@ -15,29 +15,6 @@ const projects = [
   },
   {
     "id": 2,
-    "name": "Gestor de Turnos",
-    "description": "Desarrollé un gestor de turnos utilizando TypeScript para el lenguaje de programación, React para el desarrollo del front-end, Express para el lado del servidor, y TypeORM para gestionar las tablas con PostgreSQL como base de datos.",
-    "imagenSrc": "",
-    "details": [
-      "Utilicé CSS Modules para los estilos.",
-      "Implementé funcionalidades para que los usuarios pudieran registrarse, iniciar sesión y agendar turnos para fechas futuras.",
-      "Apliqué restricciones para evitar la selección de fechas pasadas y horarios específicos."
-    ],
-    "technologies": ["TypeScript", "React", "Express", "TypeORM", "PostgreSQL","react-hook-form"]
-  },
-  {
-    "id": 3,
-    "name": "Página de Películas",
-    "description": "Realicé un proyecto donde utilicé JavaScript como lenguaje de programación, CSS Modules para los estilos, Express para el servidor, MongoDB como base de datos y Mongoose para realizar los esquemas.",
-    "imagenSrc": "",
-    "details": [
-      "Los usuarios podían agregar una película, que se almacenaba en la base de datos y se mostraba junto con las otras películas en la vista.",
-      "Implementé la funcionalidad de agregar, visualizar y gestionar películas en la base de datos."
-    ],
-    "technologies": ["JavaScript","React","CSS Modules", "Express", "MongoDB", "Mongoose"]
-  },
-  {
-    "id": 4,
     "name": "Clon de Duolingo",
     "description": "Desarrollé un proyecto inspirado en Duolingo utilizando tecnologías modernas como Next.js, TypeScript y React para el frontend. Implementé Shadcn para mejorar la interfaz de usuario con efectos visuales dinámicos y atractivos. Utilicé Drizzle para gestionar las interacciones con una base de datos PostgreSQL.",
     "imagenSrc": "/Singo.png",
@@ -50,7 +27,7 @@ const projects = [
     "technologies": ["Next.js", "TypeScript", "React", "Drizzle", "PostgreSQL", "shadcn","Clerk"]
   },
   {
-    "id": 5,
+    "id": 3,
     "name": "Cubix & bets",
     "description": "Trabajé como desarrollador front-end, donde tuve que crear la interfaz a partir del diseño en Figma que me presentaron, además de implementar las funcionalidades del back-end y la integración de los juegos.",
     "imagenSrc": "/Captura-cubix.PNG",
@@ -58,16 +35,37 @@ const projects = [
     "technologies": ["Vite","React", "Javascript", "Ant Design", "Figma", "React-Redux"]
   },
   {
-    "id": 6,
+    "id": 4,
     "name": "Tinder Swipe",
     "description": "Un pequeño proyecto que simula la interacción de deslizar en Tinder utilizando animaciones con gestos, eventos de mouse y touch. Se centra en la manipulación del DOM y la aplicación de transiciones CSS para crear una experiencia de usuario fluida y atractiva.",
     "imagenSrc": "/Tinder-switch.png",
     "details": [],
     "technologies": ["Animación con gestos", "Eventos de mouse y touch", "DOM", "Transición CSS"]
-},
-
+  },
+  {
+    "id": 5,
+    "name": "Gestor de Turnos",
+    "description": "Desarrollé un gestor de turnos utilizando TypeScript para el lenguaje de programación, React para el desarrollo del front-end, Express para el lado del servidor, y TypeORM para gestionar las tablas con PostgreSQL como base de datos.",
+    "imagenSrc": "",
+    "details": [
+      "Utilicé CSS Modules para los estilos.",
+      "Implementé funcionalidades para que los usuarios pudieran registrarse, iniciar sesión y agendar turnos para fechas futuras.",
+      "Apliqué restricciones para evitar la selección de fechas pasadas y horarios específicos."
+    ],
+    "technologies": ["TypeScript", "React", "Express", "TypeORM", "PostgreSQL","react-hook-form"]
+  },
+  {
+    "id": 6,
+    "name": "Página de Películas",
+    "description": "Realicé un proyecto donde utilicé JavaScript como lenguaje de programación, CSS Modules para los estilos, Express para el servidor, MongoDB como base de datos y Mongoose para realizar los esquemas.",
+    "imagenSrc": "",
+    "details": [
+      "Los usuarios podían agregar una película, que se almacenaba en la base de datos y se mostraba junto con las otras películas en la vista.",
+      "Implementé la funcionalidad de agregar, visualizar y gestionar películas en la base de datos."
+    ],
+    "technologies": ["JavaScript","React","CSS Modules", "Express", "MongoDB", "Mongoose"]
+  }
 ];
-
 // {
 //   "id": 6,
 //   "name": "",
@@ -76,5 +74,4 @@ const projects = [
 //   "details": [],
 //   "technologies": ["",""]
 // },
-
-  export default projects;
+export default projects;
