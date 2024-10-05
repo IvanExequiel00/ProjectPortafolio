@@ -2,20 +2,13 @@ import projects from "@/public/projects";
 import Image from "next/image";
 import Link from "next/link";
 import { Carousel, CarouselContent } from "./ui/carousel";
-import * as React from "react";
-import Autoplay from "embla-carousel-autoplay";
 type Project = {
   project: any;
 };
 
 const ModalA = ({ project }: Project) => {
  
-  const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true })
-  );
-  const plugin2 = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true })
-  );
+  
   return (
     <div className="min-h-screen flex items-center bg-gray-950 rounded-xl">
       <div className="flex-1 max-w-screen-sm mx-auto p-10">
@@ -43,35 +36,33 @@ const ModalA = ({ project }: Project) => {
             </div>
           </li>
           <li className="col-span-2 row-span-10 bg-gray-800 rounded-lg shadow-xl border-gray-600 border-2 w-full h-full">
-            <div className="flex justify-center w-full h-full">
-              {project.id === 5 ? (
-                <Carousel
-                 orientation="horizontal"
-                plugins={[plugin.current]}
-                >
-                  <CarouselContent>
-                    {project.imageSrc?.map((img: any, index : any) => (
-                      <Image
-                        key={index}
-                        className="flex w-full h-full"
-                        alt={`project-image-${index}`}
-                        src={img}
-                        width={450}
-                        height={150}
-                      />
-                    ))}
-                  </CarouselContent>
-                </Carousel>
-              ) : (
-                <Image
-                  className="flex w-fit h-full"
-                  alt="project-image"
-                  src={project.imagenSrc}
-                  width={450}
-                  height={150}
-                />
-              )}
-            </div>
+          <div className="flex justify-center w-full h-full">
+  {project.id === 5 ? (
+    <Carousel>
+      <CarouselContent>
+        {project.imagenSrc?.map((img:any, index:any) => (
+          <Image
+            key={index}
+            className="flex w-fit h-full"
+            alt={`project-image-${index}`}
+            src={img}
+            width={450}
+            height={150}
+          />
+        ))}
+      </CarouselContent>
+    </Carousel>
+  ) : (
+    <Image
+      className="flex w-fit h-full"
+      alt="project-image"
+      src={project.imagenSrc}
+      width={450}
+      height={150}
+    />
+  )}
+</div>
+
           </li>
           <li className="col-span-2 bg-gray-800 rounded-lg shadow-xl border-gray-600 border-2">
             <div className="p-3">
