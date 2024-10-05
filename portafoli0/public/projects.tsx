@@ -43,7 +43,15 @@ const projects = [
     "technologies": ["Animación con gestos", "Eventos de mouse y touch", "DOM", "Transición CSS"]
   },
   {
-    "id": 5,
+  "id": 5,
+   "name": "GIVO Elements",
+  "description": "Me gustaría compartir un proyecto en el que trabajé junto con tres desarrolladores más. Nuestro objetivo principal fue crear componentes reutilizables utilizando JavaScript Vanilla, de manera que pudieran integrarse fácilmente en futuros proyectos sin depender de frameworks como React o Vue.",
+   "imageSrc": ["/Givo1.png","/Givo 2.png","/Givo3.png"],
+   "details": [],
+  "technologies": ["Javascript","React","Next.js"]
+ },
+  {
+    "id": 6,
     "name": "Gestor de Turnos",
     "description": "Desarrollé un gestor de turnos utilizando TypeScript para el lenguaje de programación, React para el desarrollo del front-end, Express para el lado del servidor, y TypeORM para gestionar las tablas con PostgreSQL como base de datos.",
     "imagenSrc": "",
@@ -55,7 +63,7 @@ const projects = [
     "technologies": ["TypeScript", "React", "Express", "TypeORM", "PostgreSQL","react-hook-form"]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Página de Películas",
     "description": "Realicé un proyecto donde utilicé JavaScript como lenguaje de programación, CSS Modules para los estilos, Express para el servidor, MongoDB como base de datos y Mongoose para realizar los esquemas.",
     "imagenSrc": "",
