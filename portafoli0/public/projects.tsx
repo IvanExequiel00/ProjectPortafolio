@@ -46,7 +46,7 @@ const projects = [
   "id": 5,
    "name": "GIVO Elements",
   "description": "Me gustaría compartir un proyecto en el que trabajé junto con tres desarrolladores más. Nuestro objetivo principal fue crear componentes reutilizables utilizando JavaScript Vanilla, de manera que pudieran integrarse fácilmente en futuros proyectos sin depender de frameworks como React o Vue.",
-   "imagenSrc": ["/Givo1.png","/Givo2.png","/Givo3.png"],
+   "imagenSrc": "/Givo3.png",
    "details": [],
   "technologies": ["Javascript","React","Next.js"]
  },

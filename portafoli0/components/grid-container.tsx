@@ -36,23 +36,7 @@ const ModalA = ({ project }: Project) => {
             </div>
           </li>
           <li className="col-span-2 row-span-10 bg-gray-800 rounded-lg shadow-xl border-gray-600 border-2 w-full h-full">
-          <div className="flex justify-center w-full h-full">
-  {project.id === 5 ? (
-    <Carousel>
-      <CarouselContent>
-        {project.imagenSrc?.map((img:any, index:any) => (
-          <Image
-            key={index}
-            className="flex w-fit h-full"
-            alt={`project-image-${index}`}
-            src={img}
-            width={450}
-            height={150}
-          />
-        ))}
-      </CarouselContent>
-    </Carousel>
-  ) : (
+          <div className="flex justify-center w-full h-full"> 
     <Image
       className="flex w-fit h-full"
       alt="project-image"
@@ -60,7 +44,6 @@ const ModalA = ({ project }: Project) => {
       width={450}
       height={150}
     />
-  )}
 </div>
 
           </li>
