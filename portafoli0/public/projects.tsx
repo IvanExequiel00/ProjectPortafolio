@@ -58,8 +58,19 @@ const projects = [
    "repository": "https://github.com/IvanExequiel00/Component-Page",
    
  },
+ {
+  "id": 6,
+   "name": "Arkanoid",
+  "description": "Desarrollé una versión simple del juego Arkanoid, donde aprendí a dibujar en canvas, manejar eventos de teclado y utilizar requestAnimationFrame para crear una animación fluida. El juego se enfoca en las mecánicas básicas de control de la paleta y rebote de la pelota.",
+   "imagenSrc": "/arkanoid.png",
+   "details": [],
+  "technologies": ["Javascript","Eventos de teclado","RequestAnimationFrame"],
+   "repository": "https://github.com/IvanExequiel00/Component-Page",
+   "demo": "https://reto-midudev-arkanoid.vercel.app/"
+   
+ },
   {
-    "id": 6,
+    "id": 7,
     "name": "Gestor de Turnos",
     "description": "Desarrollé un gestor de turnos utilizando TypeScript para el lenguaje de programación, React para el desarrollo del front-end, Express para el lado del servidor, y TypeORM para gestionar las tablas con PostgreSQL como base de datos.",
     "imagenSrc": "",
@@ -72,7 +83,7 @@ const projects = [
     "repository": "https://github.com/pi-rym/PM3-IvanExequiel00"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Página de Películas",
     "description": "Realicé un proyecto donde utilicé JavaScript como lenguaje de programación, CSS Modules para los estilos, Express para el servidor, MongoDB como base de datos y Mongoose para realizar los esquemas.",
     "imagenSrc": "",
@@ -91,5 +102,5 @@ const projects = [
 //   "imagenSrc": "/tinder switch.png",
 //   "details": [],
 //   "technologies": ["",""]
-// },
+// }, arkanoid
 export default projects;
