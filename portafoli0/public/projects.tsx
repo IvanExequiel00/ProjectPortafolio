@@ -69,8 +69,19 @@ const projects = [
    "demo": "https://reto-midudev-arkanoid.vercel.app/"
    
  },
+ {
+  "id": 7,
+   "name": "GetJoke",
+  "description": "Desarrollé una aplicación web interactiva utilizando HTML, CSS y JavaScript que consume una API externa llamada getJoke. Esta aplicación permite a los usuarios obtener chistes aleatorios al hacer clic en un botón, mostrando dinámicamente el contenido en la interfaz de usuario.",
+   "imagenSrc": "/getjoke.png",
+   "details": [],
+  "technologies": ["Javascript","HTML","CSS", "API"],
+   "repository": "https://github.com/IvanExequiel00/getJoke",
+   "demo": "https://get-joke.vercel.app/"
+   
+ },
   {
-    "id": 7,
+    "id": 8,
     "name": "Gestor de Turnos",
     "description": "Desarrollé un gestor de turnos utilizando TypeScript para el lenguaje de programación, React para el desarrollo del front-end, Express para el lado del servidor, y TypeORM para gestionar las tablas con PostgreSQL como base de datos.",
     "imagenSrc": "",
@@ -83,7 +94,7 @@ const projects = [
     "repository": "https://github.com/pi-rym/PM3-IvanExequiel00"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Página de Películas",
     "description": "Realicé un proyecto donde utilicé JavaScript como lenguaje de programación, CSS Modules para los estilos, Express para el servidor, MongoDB como base de datos y Mongoose para realizar los esquemas.",
     "imagenSrc": "",
