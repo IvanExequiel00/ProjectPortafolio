@@ -26,7 +26,7 @@ const projects = [
       "Desarrollé un front-end interactivo y responsive utilizando React y TypeScript, garantizando una experiencia de usuario fluida y eficiente.",
       "Utilicé la librería shadcn para mejorar la UI/UX, asegurando componentes estilizados y coherentes en toda la aplicación."
     ],
-    "technologies": ["Next.js", "TypeScript", "React", "Drizzle", "PostgreSQL", "shadcn","Clerk"],
+    "technologies": ["Next.js", "TypeScript", "React", "Drizzle", "PostgreSQL", "shadcn","Clerk", "Tailwind CSS"],
     
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     "description": "Trabajé como desarrollador front-end, donde tuve que crear la interfaz a partir del diseño en Figma que me presentaron, además de implementar las funcionalidades del back-end y la integración de los juegos.",
     "imagenSrc": "/Captura-cubix.PNG",
     "details": [],
-    "technologies": ["Vite","React", "Javascript", "Ant Design", "Figma", "React-Redux"],
+    "technologies": ["Vite","React", "Javascript", "Ant Design", "Figma", "React-Redux", "CSS", "Tailwind CSS"],
     "repository": "https://github.com/IvanExequiel00?tab=repositories",
   },
   {
