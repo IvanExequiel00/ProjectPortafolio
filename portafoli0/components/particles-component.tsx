@@ -9,6 +9,8 @@ import {
 // import { loadAll } from "@tsparticles/all"; // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
 // import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
+import { useScrollPosition } from "@/hooks/useScroolPosition";
+import { cn } from "@/lib/utils";
 
 // import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
 
@@ -29,6 +31,7 @@ const ParticlesComponent = () => {
       setInit(true);
     });
   }, []);
+  const scrollPosition = useScrollPosition(); 
 
   const particlesLoaded = async (container?: Container): Promise<void> => {
     
@@ -39,7 +42,7 @@ const ParticlesComponent = () => {
       autoPlay: true,
       background: {
         color: {
-          value: "#1f1f24"
+          value: ""
         },
        
         position: "50% 50%",
@@ -220,7 +223,7 @@ const ParticlesComponent = () => {
           }
         },
         color: {
-          value: "#ffffff",
+          value: "#db1414", // color de las pelotas
           animation: {
             h: {
               count: 0,
@@ -550,7 +553,10 @@ const ParticlesComponent = () => {
    if (init) {
     return (
       <Particles
-      className="  h-[900px] md:h-[800px] xl:h-[600px] z-0 "
+      className={cn(
+        "h-[900px] md:h-[800px] xl:h-[600px] z-0  transition-all duration-300",
+        scrollPosition > 200 ? "bg-slate-200" : "bg-black" 
+      )}
         id="tsparticles"
         particlesLoaded={particlesLoaded}
         options={options}
